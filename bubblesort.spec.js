@@ -15,4 +15,13 @@ describe('Bubble Sort', function() {
 	it('handles negative elements in the array', function(){
 		expect( bubbleSort( [4,3,2,1, -5] )).toEqual( [-5,1,2,3,4] );
 	});
+
+	it('practice spying on funciton', function() {
+		function foo() { return 5; };
+		spyOn( foo, "foo");
+		foo();
+		
+
+		 expect(foo).toHaveBeenCalledTimes(1);
+	});
 });
