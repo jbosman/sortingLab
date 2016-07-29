@@ -1,3 +1,6 @@
+// Solution Video location
+// https://www.youtube.com/watch?v=Dz0NkaBp-FM
+
 function bubbleSort(array){
 
 	for( var i = 0; i < array.length - 1; i++ ){
